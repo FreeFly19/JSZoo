@@ -1,0 +1,109 @@
+.wrapper{
+	width: 960px;
+	margin: 0 auto;
+}
+
+.chat-window{
+	float: left;
+	width: 580px;
+	height: 460px;
+	background: #f9f9f9;
+	overflow: auto;
+	padding: 10px;
+	box-shadow: 1px 1px 4px #aaa;
+}
+
+.animal-wrapper{
+	float: right;
+	width: 340px;
+}
+
+.animal-list{
+	overflow: auto;
+	height: 250px;
+	box-shadow: 0 0 3px #333;
+	margin-bottom: 10px;
+}
+
+.clear{
+	clear: both;
+}
+
+.animal-block{
+	font-size: 14pt;
+	height: 44px;
+	padding-bottom: 8px;
+	border-bottom: 2px solid #aaa;
+	position: relative;
+	padding: 4px;
+}
+
+.progress-bar{
+	height: 4px;
+	background: #e00;
+}
+
+
+.remove-animal{
+	background: url(../img/close.png);
+	right: 12px;
+}
+
+.give-eat{
+	background: url(../img/meat.png);
+	right: 36px;	
+}
+.vegetarian-eat{
+	background: url(../img/vegetarian_eat.png);
+}
+.remove-animal,
+.give-eat{
+	position: absolute;
+	top: 6px;
+	height: 16px;
+	width: 16px;
+	background-size: 100%;
+	cursor: pointer;
+}
+
+.label{
+	margin-left: 10px;
+	margin-top: 3px;
+	color: green;
+}
+
+.predator .label{
+	color: red;
+}
+
+.create-animal-form{
+	box-shadow: 0 0 5px #aaa;
+	padding-bottom: 15px;
+}
+
+.create-animal-button{
+	width: 60%;
+	height: 36px;
+	margin: 10px auto;
+	background: #0af;
+	border-radius: 20px;
+	text-align: center;
+	line-height: 36px;
+	font-size: 16pt;
+	color: #fff;
+	box-shadow: 0 0 3px #0af;
+	cursor: pointer;
+}
+
+.create-animal-button:hover{
+	box-shadow: 0 0 10px #0af;
+}
+
+td{
+	width: 45%;
+}
+
+
+select{
+	width: 99%;
+}
